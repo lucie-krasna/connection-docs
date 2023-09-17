@@ -1,5 +1,5 @@
 ---
-title: Extractors for SQL Databases
+title: Relational Sync Extractors for SQL Databases
 permalink: /components/extractors/database/sqldb/
 redirect_from:
     - /extractors/database/sqldb/
@@ -9,7 +9,8 @@ redirect_from:
 * TOC
 {:toc}
 
-Each extractor from an SQL database allows you to extract data from selected tables, or results from arbitrary SQL queries.
+Each extractor from an SQL database allows you to extract data from selected tables, or results from arbitrary SQL queries. 
+This category of DB Extractors performs direct queries against the source system. Enabling the Time-stamp based CDC replication.
 
 The extractors for supported SQL databases ([Cloudera Impala](https://www.cloudera.com/products/open-source/apache-hadoop/impala.html), 
 [Firebird](http://www.firebirdsql.org/), [IBM DB2](https://www.ibm.com/analytics/db2), 
